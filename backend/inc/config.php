@@ -1,4 +1,4 @@
-<?php 
+<?php
 	const SITE_MAP = "http://localhost/CIDS/backend/";
 	const ASSETS = SITE_MAP."assets/";
 	const CSS_URL = ASSETS."css/";
@@ -18,4 +18,6 @@
 	const DB_PASSWORD = "";
 
 	$allowed_image_ext = array("jpg", "jpeg", "png", "bitmap");
+
+	define(INC_PATH, $_SERVER['DOCUMENT_ROOT']);
 ?>

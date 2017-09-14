@@ -65,9 +65,10 @@
         </form>
     </div>
 </div>
+
 <div id="templatemo_footer">
     <div>
-        <p id="footer">Copyright &copy; 2015 CIDS</p>
+        <p id="footer">Copyright &copy; 2015 Hub4Growth</p>
     </div>
 </div>
 <script src="<?php echo JS_URL; ?>jquery.min.js"></script>
@@ -79,6 +80,8 @@
 <!-- <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDn9aLsmlbuXnPTUxpjzIt4d2HhnBA3vOA&callback=initialize">
     </script> -->
-<script src="<?php echo JS_URL; ?>templatemo_script.js"></script>
+    <script type="text/javascript" src="<?php echo JS_URL; ?>templatemo_script.js">
+    </script>
+<?php //include INC_PATH."/assets/js/templatemo_script.php"; ?>
 </body>
 </html>

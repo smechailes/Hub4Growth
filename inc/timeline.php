@@ -13,10 +13,10 @@
                 <p>Aliquam adipiscing nibh sem, vitae aliquet ipsum rutrum nec. Nulla nec fermentum libero. Duis quis fermentum libero. Nunc facilisis ultrices fringilla. Nullam sed ligula ac libero venenatis pellentesque vitae nec mauris.</p>
             </div>
         </div>
-        <div class="time_line_wap">
+        <div class="time_line_wap" data-toggle="modal" data-target="#myModal2">
             <div class="time_line_caption">2 weeks ago</div>
             <div class="time_line_paragraph">
-                <h1>Excepteur sint occaecat cupidatat</h1>
+                <h1 data-toggle="modal" data-target="#myModal2">Excepteur sint occaecat cupidatat</h1>
                 <p>
                        <span class="glyphicon glyphicon-user"></span> <a href="#">Kyor Kyor</a> &nbsp;&nbsp;
                        <span class="glyphicon glyphicon-bookmark"></span> <a href="#">HTML5</a>, <a href="#">Mobile</a> &nbsp;&nbsp;

@@ -1,6 +1,4 @@
-/*  Free Template by www.templatemo.com  */
-
-
+<?php header("Content-type: application/javascript"); ?>
 
 /*
 
@@ -312,7 +310,7 @@ jQuery(function(){
 
                 $.timeline_right_position_top = $.timeline_right_position_top + $(this).outerHeight() + 40 ;
 
-                $(this).prepend("<a href=\"javascript:;\" class=\"right_timer\"><span class=\"glyphicon glyphicon-time\"></span></a>");
+                $(this).prepend("<a href=\"<?php echo INC_URL; ?>timeline.php" class=\"right_timer\"><span class=\"glyphicon glyphicon-time\"></span></a>");
 
                 $(this).children("a.right_timer").css({left:-86, width: 60 ,});
 
@@ -338,7 +336,7 @@ jQuery(function(){
 
                 $.timeline_left_position_top = $.timeline_left_position_top + $(this).outerHeight() + 40 ;
 
-                $(this).prepend("<a href=\"javascript:;\" class=\"left_timer\"><span class=\"glyphicon glyphicon-time\"></span></a>");
+                $(this).prepend("<a href=\"<?php echo INC_URL; ?>timeline.php\" class=\"left_timer\"><span class=\"glyphicon glyphicon-time\"></span></a>");
 
                 $(this).children("a.left_timer").css({left:$.timeline_item_width-50,});
 
@@ -366,7 +364,7 @@ jQuery(function(){
 
                 $.timeline_right_position_top = $.timeline_right_position_top + $(this).outerHeight() + 40 ;
 
-                $(this).prepend("<a href=\"javascript:;\" class=\"right_timer\"><span class=\"glyphicon glyphicon-time\"></span></a>");
+                $(this).prepend("<a href=\"#\" class=\"right_timer\"><span class=\"glyphicon glyphicon-time\"></span></a>");
 
                 $(this).children("a.right_timer").css({left:-99,});
 
@@ -394,7 +392,7 @@ jQuery(function(){
 
                 $.timeline_left_position_top = $.timeline_left_position_top + $(this).outerHeight() + 40 ;
 
-                $(this).prepend("<a href=\"javascript:;\" class=\"left_timer\"><span class=\"glyphicon glyphicon-time\"></span></a>");
+                $(this).prepend("<a href=\"#\" class=\"left_timer\"><span class=\"glyphicon glyphicon-time\"></span></a>");
 
                 $(this).children("a.left_timer").css({left:$.timeline_item_width-50,});
 
@@ -676,7 +674,7 @@ function initialize(){
 
         map: map,
 
-        title: 'Welcome to CIDS'
+        title: 'Welcome to Hub4Growth'
 
     });
 
